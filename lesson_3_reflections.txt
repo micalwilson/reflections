@@ -28,4 +28,10 @@ branch, but do not give it a branch name, that commit will still exist,
 but you would need to know its commit ID in order to find it and work 
 with it.
 
+What is the benefit of having a copy of the last known state of the 
+remote stored locally?
 
+Then you could use git log and git diff to see what changes were 
+introduced, both on the local and remote repositories. This can be 
+useful if you want to work online, but use the latest changes to the 
+remote.
