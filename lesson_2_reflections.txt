@@ -9,3 +9,37 @@ have not been committed yet. It lets us configure git how we want before
 we create our first commit. Otherwise there would be several early 
 commits that only have some of the files.
 
+How can you use the staging area to make sure you have one commit per 
+logical change?
+Add to staging area after each logical change, then commit it after testing.
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help? If you need to create a 
+different version of your game, such as to experiment in some way or to 
+use a different language. Branches help by letting you easily switch to 
+different versions of your code by referring to the different versions 
+using a name that is easy to remember.
+
+How do the diagrams help you visualize the branch structure? You can see 
+how the different commits relate to one another and which ones are 
+reachable from the current branch.
+
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do? The result is that the changes made in 
+the two branches are combined. In the merged version, lines added in 
+each branch are added and lines deleted in each branch are deleted. The 
+merge function compares the two branch tips with the common parent that 
+the two branches had, so that the merge function knows the starting 
+point and can tell which lines were deleted and which were added. The 
+merge function always merges all the specified branches into the 
+currently checked out branch, creating a new commit for that branch. 
+Order listed doesn’t matter. We represent it in the diagram showing 
+multiple branches becoming one because that is what is happening.
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually? Automatic Pros: It's easy. And automatic. And hopefully 
+does what you want it to. Automatic Cons: It may not do what you want it 
+to. Sometimes it doesn't work. Manually Pros: You specify exactly what 
+you want it to do. Manual Cons: You may make a mistake or typo, and 
+Automatic may not do that.
+
