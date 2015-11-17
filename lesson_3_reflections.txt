@@ -1,1 +1,3 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+A remote repository allows you to share your repository with others and also to access it from other computers yourself. Also, it is a way to back up your work.
