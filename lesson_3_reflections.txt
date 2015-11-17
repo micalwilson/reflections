@@ -11,4 +11,21 @@ Git automatically stay up-to-date with your remote repository?
 You may not want to have all of your changes be released publicly. It is 
 better if you have control over what gets pushed when you are ready.
 
+Describe the differences between forks, clones, and branches. When would 
+you use one instead of another?
+
+Forks are a copy of someone else's GitHub branch that you make directly 
+on GitHub's servers. Changes you make to the forked branch do not affect 
+the original.
+
+Clones are exact copies of repositories. They can exist on GitHub, 
+different computers, or there could be multiple clones on one computer.
+
+Branches happen on a single repository. A branch is a friendly name for 
+a commit. If a new commit is added on that branch, the branch tip moves 
+to include the new commit. If you make a new commit in the middle of a 
+branch, but do not give it a branch name, that commit will still exist, 
+but you would need to know its commit ID in order to find it and work 
+with it.
+
 
