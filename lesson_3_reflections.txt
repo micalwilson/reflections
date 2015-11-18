@@ -5,11 +5,13 @@ A remote repository allows you to share your repository with others and
 also to access it from other computers yourself. Also, it is a way to 
 back up your work.
 
+
 Why might you want to always pull changes manually rather than having 
 Git automatically stay up-to-date with your remote repository?
 
 You may not want to have all of your changes be released publicly. It is 
 better if you have control over what gets pushed when you are ready.
+
 
 Describe the differences between forks, clones, and branches. When would 
 you use one instead of another?
@@ -28,6 +30,7 @@ branch, but do not give it a branch name, that commit will still exist,
 but you would need to know its commit ID in order to find it and work 
 with it.
 
+
 What is the benefit of having a copy of the last known state of the 
 remote stored locally?
 
@@ -35,3 +38,16 @@ Then you could use git log and git diff to see what changes were
 introduced, both on the local and remote repositories. This can be 
 useful if you want to work online, but use the latest changes to the 
 remote.
+
+
+How would you collaborate without using Git or GitHub? What would be 
+easier, and what would be harder?
+
+You could have files saved on a file server, Google Drive, or Dropbox. 
+It would be more dificult to find out what specifically changed in each 
+file, revert small changes, and deploy code. Those may be easier because 
+they would backup versions automatically.
+
+
+
+
