@@ -49,5 +49,12 @@ file, revert small changes, and deploy code. Those may be easier because
 they would backup versions automatically.
 
 
+When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+
+A separate branch would be useful if you want to have others check out 
+and comment and suggest changes before you commit the changes to the 
+master branch. Using the main branch would be simpler, but a separate 
+branch allows you to carefully implement changes while collaborating.
 
 
