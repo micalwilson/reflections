@@ -1,34 +1,57 @@
-How did viewing a diff between two version help you spot the bug? The 
-diff function is awesome, will be super helpful occasionally I'm sure.
+How did viewing a diff between two version help you spot the bug? 
+
+The diff function helped by making the difference in the files stand out 
+so it could be fixed.
+
 
 How could having easy access to the entire history of a file make you a 
-more efficient programmer in the long term? You could easily revert to a 
-previous version if you accidentally break something.
+more efficient programmer in the long term? 
+
+You could easily revert to a previous version if you accidentally break 
+something.
+
 
 What do you think are the pros and cons of manually choosing when to 
 create a commit, like you do in Git, vs having versions automatically 
-saved, like Google Docs does? Pros: The commits have logical differences 
-between versions and hopefully would not save too many commits. Cons: 
-You may forget to commit. And committing is one more thing to think 
-about and clutter up our brains.
+saved, like Google Docs does? 
+
+Pros: The commits have logical differences between versions and 
+hopefully would not save too many commits. 
+
+Cons: You may forget to commit. And committing is one more thing to 
+think about and clutter up our brains.
+
 
 Why do you think some version control systems, like Git, allow saving 
 multiple files in one commit, while others, like Google Docs, treat each 
-file separately? Because Git was designed to work specifically with 
-coding files which may have dependencies on other files. Google Docs was 
-designed to work with generic files.
+file separately? 
+
+Because Git was designed to work specifically with coding files which 
+may have dependencies on other files. Google Docs was designed to work 
+with generic files.
+
 
 How can you use the commands git log and git diff to view the history of 
-files? git log: shows you the history of different commits and some info 
-about them git diff: lets you compare two commits to see what lines were 
-deleted and added
+files? 
+
+git log: shows you the history of different commits and some info about 
+them
+
+git diff: lets you compare two commits to see what lines were deleted 
+and added
+
 
 How might using version control make you more confident to make changes 
-that could break something? I can feel free to break lots of things, 
-because it is easy to revert back to a previous version and compare what 
-changed. I would feel like I had the freedom to make big changes.
+that could break something? 
+
+I can feel free to break lots of things, because it is easy to revert 
+back to a previous version and compare what changed. I would feel like I 
+had the freedom to make big changes.
+
 
 Now that you have your workspace set up, what do you want to try using 
-Git for? Hmmm... everything? Git is awesome.
+Git for? 
+
+Hmmm... everything? Git is awesome.
 
 
